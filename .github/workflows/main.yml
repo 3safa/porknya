@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 360
     env:
         NUM_JOBS: 150
-        JOB: ${{ matrix.go }}
+        JOB: ${{ matrix.go }} 
     steps:
     - name: Set up Go ${{ matrix.go }}
       uses: actions/setup-go@v1
